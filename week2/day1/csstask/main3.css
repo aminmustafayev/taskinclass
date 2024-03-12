@@ -1,0 +1,23 @@
+body{
+    background-color: wheat;
+}
+.cards{
+    border: 1px solid white;
+    background-color: white;
+    margin: 5px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.card .images{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.card .bread{
+    margin: 50px;
+}
+.card .more{
+    margin: 60px;
+   text-decoration: underline;
+}

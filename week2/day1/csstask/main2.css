@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(148, 166, 166);
+}
+.title{
+    border: 10px solid white;
+    margin: 50px 710px auto;
+    width: 500px;
+    height: 450px;
+    border-radius: 30px ;
+    background-color: white;
+}
+.title .main{
+    color: blue;
+margin: 30px;
+border-radius: 5px;
+font-weight: 800;
+border: none;
+padding: 10px;
+}
+.title h1{
+    margin: 20px;
+}
+.title p{
+    color:darkgoldenrod;
+    margin: 20px;
+}
+.title .text{
+    margin: 30px;
+    border: 2px solid purple;
+    color: purple;
+    padding: 10px;
+    border-radius: 10px;
+}
+.title .text:hover{
+    background-color: purple;
+    color: white;
+}
