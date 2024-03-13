@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.class{
+    border: 2px solid black;
+    background-color: rgb(192, 213, 232);
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.title h1{
+    border: 1px solid rgb(0, 98, 255);
+    color: blue;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 40%;
+}
+/* .main{
+    border: 1px solid white;
+    height: 200px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 20px;
+} */
+.main{
+    display: flex;
+    gap: 30px;
+}
+.main .room{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    width: 180px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+ .room i{
+    /* margin-top: 50px;
+    margin-left: 45%; */
+    font-size: 30px;
+} 
+.room h4{
+/* margin-top: 60px; */
+padding: 10px 30px;
+}
+.room p{
+    /* margin-bottom: 20px; */
+    padding: 10px 15px;
+}
+.room button{
+    border-radius: 15px;
+    /* margin-left: 25px; */
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}

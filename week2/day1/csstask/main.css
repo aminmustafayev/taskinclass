@@ -1,0 +1,67 @@
+.title{
+ border: 20px solid red;
+ width: 20px auto;
+margin: 50px 200px auto;
+padding: 40px;
+background-color: green;
+}
+.main{
+    border: 5px solid coral;
+    width: 20px auto;
+    margin: 20px 20px; 
+    padding: 40px;
+    background-color: brown;
+}
+.main:hover{
+    background-color: lightcoral;
+}
+.book:hover{
+    background-color: blue
+}
+.book{
+    background-color: bisque
+}
+.main>.book{
+    border: 5px solid white;
+    padding: 10px;
+    height: 50px;
+    
+}
+.male{
+    border: 10px solid purple   ;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color:  plum;
+}
+.male h3{
+    text-decoration: underline;
+}
+.male h3 span{
+    font-weight: 400;
+}
+.male li:first-child{
+color: blue;
+}
+.female{
+    border: 10px solid purple;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: plum;
+}
+.female h3{
+    text-decoration: underline;
+}
+.female h3 span{
+    font-weight: 400;
+}
+.female li:last-child{
+    list-style-type: none;
+}
+.male li:hover{
+    font-size: larger;
+    color: white;
+}
+.female li:hover{
+    font-size: larger;
+    color: white;
+}
