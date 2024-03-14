@@ -1,0 +1,39 @@
+.main{
+    border: 2px solid black;
+   width: 40%;
+   height: 50vh;
+   margin: 70px auto;
+}
+.main .main-box{
+    border: 1px solid black;
+    background-color: goldenrod;
+    width: 600px;
+    height: 30vh;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 230px; */
+    /* position: relative; */
+}
+.main-box .main-one{
+    border: 3px solid white;
+    background-color:purple;
+    width: 150px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-one h3{
+    text-align: center;
+    color: white;
+}
+#border{
+    border: 5px solid black;
+    position: relative;
+    right: 44px;
+    bottom: 50px;
+    
+}
