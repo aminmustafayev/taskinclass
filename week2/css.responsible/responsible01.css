@@ -1,0 +1,11 @@
+@media only screen and (max-width:768px) {
+    .menu{
+        display: flex;
+    }
+    .shop-btn{
+        display: none;
+    }
+    .main-list{
+        display: none;
+    }
+  }
