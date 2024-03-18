@@ -1,0 +1,128 @@
+/* .header-row{
+    justify-content: space-between;
+} */
+nav{
+    background-color: #2C3E50;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+}
+.headclass{
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    font-weight: 700;
+}
+nav ul li{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+nav ul li:hover{
+    color: #1ABC9C; 
+}
+
+nav ul li:active{
+    color: white; 
+    background-color: #1ABC9C;
+}
+main{
+    padding-top: 94px;
+}
+#img{
+    background-color: #1ABC9C;
+    width: 100%;
+    padding: 60px 0;
+    /* height: 7   00px; */
+}
+.img-boy img{
+    width: 100%;
+    height: 25vh   ;
+}
+.page h1{
+    font-size: 64px;
+    color: white;
+    font-weight: 700;
+}
+#portfoilo{
+    width: 100%;
+    padding: 60px 0;
+}
+.artist p{
+    color: white;
+
+    font-size: 24px;
+}
+.home-img img{
+    width: 100%;
+    height: 300px;
+}
+.home-img{
+    position: relative;
+    gap: 20px;
+}
+.home-img:hover .overlay{
+     opacity: 0.8;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1ABC9C;
+  top: 0;
+  opacity: 0;
+  left: 0;
+  transition: all .3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay i{
+    font-size: 50px;
+    font-weight: 900;
+}
+.title h1{
+    font-size: 48px;
+}
+#about{
+    /* width: 100%; */
+    background-color: #1ABC9C;
+}
+#about h1{
+    font-size: 48px;
+    padding: 50px 0;
+    font-weight: 700;
+}
+.play-about h1{
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    padding: 60px 0;
+}
+.p_about p{
+    font-size: 20px;
+    color: white;
+}
+.submit_buttons button{
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: #1ABC9C;
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+}
+.submit_buttons button i{
+    padding: 0 10px;
+}
+.submit_buttons button:hover {
+    color: black;
+    background-color: white;
+}
+.submit_buttons button :hover .submit_buttons button i{
+  color: black;
+}
