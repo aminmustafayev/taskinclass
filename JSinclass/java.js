@@ -103,22 +103,22 @@
 // Task 2:
 
 // Daxil edilən 3 rəqəmə əsasən üçbucağın tərəfinə görə hansı növü olduğunu müəyyənləşdirən proqram yazın.Hər üç rəqəm müsbət olmalıdır.
-let num1=Number(prompt("birinci teref"))
-let num2=Number(prompt("ikinci teref"))
-let num3=Number(prompt("ucuncu teref"))
-if (num1,num2,num3>0){
-    if (num1==num2 && num2==num3 && num1==num3){
-        alert("Beraber terefli")
-    }
-    else if(num1==num2 || num2==num3 || num1==num3){
-        alert("beraber yanli")
-    }
-else { alert("Muxtelif Terefli")}
-}
-else{
-    alert("eded menfidir"
-    )
-}
+// let num1=Number(prompt("birinci teref"))
+// let num2=Number(prompt("ikinci teref"))
+// let num3=Number(prompt("ucuncu teref"))
+// if (num1,num2,num3>0){
+//     if (num1==num2 && num2==num3 && num1==num3){
+//         alert("Beraber terefli")
+//     }
+//     else if(num1==num2 || num2==num3 || num1==num3){
+//         alert("beraber yanli")
+//     }
+// else { alert("Muxtelif Terefli")}
+// }
+// else{
+//     alert("eded menfidir"
+//     )
+// }
 // Task 3:
 
 // Daxil edilən rəqəmin cüt yoxsa tək olmasını tapın.Ədəd müsbət olmadır.
@@ -126,21 +126,84 @@ else{
 // Task 4:
 
 // Daxil edilən 1-12 arasındakı müsbət rəqəmlərdən hər hansı birinə uyğun olan ayın adını yazan proqram yazın. Məsələn 2 daxil edilsən Fevral yazılmalıdır.(switch ilə yazılmalıdır.) 1-dən kiçik və 12-dən böyük rəqəm daxil edildikdən consolda  "Zəhmət olmasa sadəcı 1-12 aralığında ədəd daxil edin" yazılsın.
+// let num=Number(prompt("enter your number"))
+// switch (num) {
+//     case 1:
+//     console.log("Yanvar")
+//         break;
+//         case 2:
+//     console.log("Fevral")
+//         break;
+//         case 3:
+//     console.log("Mart")
+//         break;
+//         case 4:
+//     console.log("Aprel")
+//         break;
+//         case 5:
+//     console.log("May")
+//         break;
+//         case 6:
+//     console.log("Iyun")
+//         break;
+//         case 7:
+//     console.log("Iyul")
+//         break;
+//         case 8:
+//     console.log("Avqust")
+//         break;
+//         case 9:
+//     console.log("Sentyabr")
+//         break;
+//         case 11:
+//     console.log("Oktyabr")
+//         break;
+//         case 12:
+//     console.log("Dekabr")
+//         break;
 
+//     default:
+//         break;
+// }
 
 // Task 5:
 
 // Daxil edilən müsbət ədədin 3 və 5 ədədinə eyni anda bölünüb-bölünmədiyini tapan proqram yazın.
+// let x=Number(prompt("enter your number"));
+// if (x%3==0 && x%5==0){
+//     console.log("bolunur")
+
+// }
+// else {
+//     console.log("bolunmur")
+// }
 
 
 // Task 6:
 
 // Daxil edilən müsbət ədədin 2-yə tam bölünüb-bölünmədiyini tapan proqram yazın. Əgər tam bölünürsə, consolda bölündü yazılsın,tam bölünmürsə qalıq hesablanıb yazılsın.
+// let x=Number(prompt("enter your number"));
+// if (x%2==0){
+//     console.log("bolunur")
+// }
+// else{
+//     let result=x%2
+//     console.log(result)
+// }
 
 // Task 7:
 
 // Daxil edilən 2 ədədin hasilinin müsbət yoxsa mənfi ədəd olmasını göstərən funksiya yazın.
+// let x=Number(prompt("enter your number"));
+// let y=Number(prompt("enter your number"));
+// let result=x*y>0
 
+// if (result){
+//     console.log("musbet")
+// }
+// else{
+//    console.log("menfi");
+// }
 
 // Task 8:
 
@@ -188,4 +251,193 @@ else{
 // 2. Daxil edilən random ədədlə istifadəçinin daxil etdiyi ədədin hər iki mərtəbəsi uyğun gələrsə, amma mərtəbələrin yeri dəyişikdirsə alertlə " Siz 500 manat qazandınız" yazın. Yəni random ədəd 45-dir amma istifadəçi 54 yazıbsa o 500 manat qazanır.
 // 3. Daxil edilən random ədədlə istifadəçinin daxil etdiyi ədədin bir mərtəbəsi uyğun gələrsə,alertlə " Siz 100 manat qazandınız" yazın. Yəni random ədəd 32-dir istifadəçi 42 yazıbsa o 100 manat qazanır.
 // 4. Bu hallardan heç biri deyilsə, alertlə "Bir daha sınayın" yazın.
+
+
+
+
+
+
+
+// Task 1:
+
+// Öz adınızı ekranda 5 dəfə çap edən proqram yazın.
+// let x="Amin"
+// for ( i = 0; i < 5; i++) {
+//     console.log(x);
+    
+// }
+
+
+// Task 2:
+
+// Ədədləri 20dən geriyə yazdırın.
+// for(let i=20;i>0;i--){
+//     console.log(i);
+// }
+
+// Task 3:
+// ["Bakı","Gəncə","Sumqayıt"]
+
+// // arrayin elementlərini consolda göstərin.(hem for,hem for of istifadə edin)
+// let city=["Bakı","Gəncə","Sumqayıt"]
+// let text=""
+// for (let index = 0; index < city.length; index++) {   
+//     console.log(city)
+//     break
+// }
+// 2
+// let city=["Bakı","Gəncə","Sumqayıt"]
+// let text=""
+// for (const x of city) {
+//     text+=x+"/br"
+//     console.log(city)
+//     break
+    
+// }
+
+// Task 4:
+
+// ["Bakı","Gəncə","Sumqayıt"]
+
+// arrayin elementlərinin indeksini consolda göstərin.(hem for,hem for in istifadə edin)
+
+//  let city=["Bakı","Gəncə","Sumqayıt"]
+//  let text=""
+//  for (let index = 0; index < city.length; index++) {
+//     console.log(index);
+//  }
+// let city=["Bakı","Gəncə","Sumqayıt"]
+// let text=""
+// for (const x of city) {
+//   console.log(x)
+// }
+// for (const key in city) {
+//    console.log(key)
+// }
+
+
+// Task 5:
+// [1,4,5,6,7,8,34,56,98]
+
+// arrayin elementlərinin cəmini tapın.
+// let x=[1,4,5,6,7,8,34,56,98]
+// cont=0
+// for (let i= 0; i< x.length; i++) {
+//     cont=cont+x[i]
+//     console.log(cont);
+// }
+
+
+// Task 6:
+
+// 1-dən 50-yə qədər ədədləri consolda yazdırın.
+
+// for (let i = 0; i < 51; i++) {
+//     console.log(i) 
+// }
+
+// Task 7:
+
+// 1-dən 50-yə qədər ədədlər 3-3 artıraraq yazdırı.
+
+// for (let i = 0; i < 51; i+=3) {
+//     console.log(i) 
+// }
+// Task 8:
+
+// 1-dən 50-yə qədər cüt ədədləri yazdırın.
+// for (let i = 0; i < 51; i++) {
+//     if (i%2===0) {
+//         console.log(i);
+//     }
+// }
+
+// Task 9:
+
+// 1-dən 50-yə qədər 8-ə bölünən ədədləri yazdırın.
+
+// for (let i = 0; i < 50; i++) {
+//    if(i%8===0){
+//     console.log(i);
+//    }
+    
+// }
+
+// Task 10:
+
+// 1dən 100ə qədər rəqəmlərin cəmini tapan proqram yazın.
+// sum=0
+// for (let i = 0; i < 101; i++) {
+//   sum+=i  
+// }
+// console.log(sum)
+
+// Task 11:
+
+// Daxil edilən ədədin faktorialını tapan proqram yazın.
+
+// let num=Number(prompt("Eded daxil edin"))
+// let hasil=1
+// for(let i=num;i>0;i--){
+//     hasil*=i
+// }
+// console.log(hasil)
+
+// Task 12:
+
+// 1-100 arasında rəqəmlərdən 3-ə bölünənlər üçün konsola Fizz, 5-ə bölünənlər üçün Buzz, hər ikisinə bölünənlər üçünsə FizzBuzz yazdırın.
+// for (let i = 1; i <=100; i++) {
+// if(i%15==0){
+// console.log(`${i}"FizzBuzz"`)
+// }
+// else if((i%5==0)){
+//     console.log(`${i}"Buzz"`)
+// }else if(i%3==0){
+    
+//     console.log(`${i}"Fizz"`)
+    
+// }
+// }
+
+// Task 13:
+
+// 3 rəqəmli Armstronq nömrələrini tapan JavaScript proqramı yazın.
+// Qeyd: Üçrəqəmli Armstronq ədədi rəqəmlərinin kublarının cəmi həmin ədədin özünə bərabər olan tam ədəddir. Məsələn, 3**3 + 7**3 + 1**3 = 371, buna görə də 371 Armstronq nömrəsidir.
+let num=(prompt("enter your number"))
+let sum=0
+for (let i = 0; i < num.length; i++) {
+    sum+=num[i]**3
+}
+if(num==sum){
+    console.log("YES");
+}else{
+    console.log('NO');
+}
+
+
+// Task 14:
+
+// Ədəddəki cüt və tək yerdə olan rəqəmləri ayrılıqda cəmləyirik. Bu cəmlərin hasilini tapın. Məsələn, 1243 ədədində tək yerdə duran 1 və 4ün cəmi və cüt yerdə duran 2 və 3ün cəmini tapıb bu cəmlərin hasilini ekrana yazdırın.
+
+// Task 15:
+// Bir array daxilindəki ədədlərin hasili əgər cüt ədəddirsə, həmin ədədlərin cəmini consolda göstərin. Yox əgər təkdirsə, consolda sıfır göstərin.
+
+
+// Task 16:
+// Bir arraydə bütün ədədlər cütdürsə consoleda true, təkdirsə false yazın.
+
+// Task 17:
+// Daxil edilən arraydə ədədlərin ədədi ortasını tapın. Tam ədədə yuvarlaqlaşdırın.
+
+// Task 18:
+
+// İki dəyişən təyin edin. Biri hər hansı söz, digəri isə hərf olsun. Həmin hərf o sözün içində varsa consoleda true, yoxdursa false yazılsın.
+
+
+// Task: 19
+// İki dəyişən təyin edin. Biri hər hansı söz, digəri isə hərf olsun. Həmin hərfin o sözün içində neçə dəfə olduğunu consoleda yazdırın.
+
+// Task: 20
+
+// Bir dəyişən təyin edin.Bu dəyişən sizin sözünüz olacaq. O sözün içində neçə sait olduğunu consoleda yazdırın
 
